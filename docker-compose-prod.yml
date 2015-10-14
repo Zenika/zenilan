@@ -1,0 +1,11 @@
+jhipster-prod-postgresql:
+  container_name: zenilan-prod-postgresql
+  image: postgres
+  # volumes:
+  # - ~/volumes/jhipster/zenilan/prod-postgresql/:/var/lib/postgresql/
+  environment:
+  - POSTGRES_USER=zenilan
+  - POSTGRES_PASSWORD=
+  ports:
+  - "5432:5432"
+

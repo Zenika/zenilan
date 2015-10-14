@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "zenilan",
+    "packageName": "zenilan",
+    "packageFolder": "zenilan",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "javaVersion": "8",
+    "enableTranslation": false,
+    "rememberMeKey": "588ff64d0466812e38117d35caf7c9d2e89e4bc7"
+  }
+}
