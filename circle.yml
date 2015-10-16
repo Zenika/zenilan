@@ -4,3 +4,7 @@ machine:
   # Version of java to use
   java:
     version: oraclejdk8
+
+test:
+  pre:
+    - bower install
